@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(29, 29, 29);
+}
+.container {
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  max-width: 400px;
+  border: 1px solid gray;
+  max-height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container h1 {
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(24, 17, 204);
+}
+.inputs {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(179, 189, 189);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+}
+.inputs img {
+  margin: 0 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.inputs input {
+  font-size: 18px;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.buttons {
+  width: 250px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border-radius: 50px;
+  height: 30px;
+  color: black;
+  background-color: rgb(21, 86, 215);
+  cursor: pointer;
+}
+.forgot-password {
+  padding: 10px;
+  font-size: 18px;
+}
+.forgot-password span {
+  margin: 0 20px;
+  color: rgb(24, 24, 224);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.log-grey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border-radius: 50px;
+  height: 30px;
+  color: black;
+  background-color: rgb(170, 170, 181);
+  cursor: pointer;
+}
